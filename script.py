@@ -18,7 +18,7 @@ if response.status_code == 200:
 
     # Erste 10 Ergebnisse
     for repo in data['items'][:10]:
-        print(f"- {repo['name']}: {repo['stargazers_count']}")
+        print(f"- {repo['name']}: {repo['stargazers_count']} - {repo['html_url']}")
     print("\n")
 else:
     print(f"Fehler: {response.status_code}")
