@@ -24,6 +24,8 @@ else:
     print(f"Fehler: {response.status_code}")
 
 print("Hello TUD! :)")
+print("Hello TUD! :)")
+print("Hello TUD! :)")
 
 # print("\n"*2, data)
 # - {repo['html_url']}
